@@ -1,0 +1,8 @@
+# Generated with JReleaser 1.10.0-SNAPSHOT at 2023-11-17T14:07:48.919456102Z
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.version.1.4.0.schema.json
+
+PackageIdentifier: Spring.spring-cli
+PackageVersion: 0.7.5
+DefaultLocale: en-US
+ManifestType: version
+ManifestVersion: 1.4.0
