@@ -1,0 +1,22 @@
+# Generated with JReleaser 1.10.0-SNAPSHOT at 2023-11-18T08:25:44.341715092Z
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.4.0.schema.json
+
+PackageIdentifier: Spring.spring-cli
+PackageVersion: 0.7.6
+PackageLocale: en-US
+Publisher: Spring
+PublisherUrl: https://github.com/spring-projects-experimental/spring-cli
+PublisherSupportUrl: https://github.com/jvalkeal/spring-cli/issues
+Author: jvalkeal
+PackageName: spring-cli
+PackageUrl: https://github.com/spring-projects-experimental/spring-cli
+License: Apache-2.0
+LicenseUrl: https://spdx.org/licenses/Apache-2.0.html
+Copyright: 2023 jvalkeal
+ShortDescription: Spring Cli
+Description: |
+  Spring Cli
+Moniker: spring
+ReleaseNotesUrl: https://github.com/jvalkeal/spring-cli/releases/tag/v0.7.6
+ManifestType: defaultLocale
+ManifestVersion: 1.4.0

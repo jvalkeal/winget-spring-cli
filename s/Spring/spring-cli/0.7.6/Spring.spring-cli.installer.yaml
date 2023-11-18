@@ -1,0 +1,22 @@
+# Generated with JReleaser 1.10.0-SNAPSHOT at 2023-11-18T08:25:44.341715092Z
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.4.0.schema.json
+
+PackageIdentifier: Spring.spring-cli
+PackageVersion: 0.7.6
+MinimumOSVersion: 10.0.0.0
+InstallerType: wix
+Scope: machine
+InstallModes:
+  - silent
+  - silentWithProgress
+UpgradeBehavior: install
+Commands:
+  - spring
+ReleaseDate: 2023-11-18
+Installers:
+  - Architecture: x64
+    InstallerUrl: https://github.com/jvalkeal/spring-cli/releases/download/v0.7.6/spring-cli-installer-0.7.6-windows-x86_64.msi
+    InstallerSha256: 9a37ff3f2df6acb933f3274b7fc74b0717fc88831230b2e1d0465e28e0c99b1e
+    ProductCode: 'spring-cli 0.7.6'
+ManifestType: installer
+ManifestVersion: 1.4.0
