@@ -11,12 +11,12 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout
+      - name: Checkout winget manifests
         uses: actions/checkout@v3
         with:
           path: winget-jr
 
-      - name: Checkout macports fork
+      - name: Checkout winget-pkgs fork
         uses: actions/checkout@v3
         with:
           repository: jvalkeal/winget-pkgs
@@ -31,8 +31,9 @@ jobs:
 
       - name: Branch update
         run: |
-          BRANCH=spring-cli-installer-${{ github.ref_name }}
-          VERSION=${BRANCH#v}
+          REF=${{ github.ref_name }}
+          BRANCH=spring-cli-installer-$REF
+          VERSION=${REF#v}
           cd winget-pkgs
           git checkout -b $BRANCH
           mkdir -p manifests/s/Spring/spring-cli
